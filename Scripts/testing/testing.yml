@@ -1,0 +1,19 @@
+commonfields:
+  id: testing
+  version: -1
+name: testing
+script: ''
+type: python
+tags:
+- active directory
+comment: Use Active Directory to retrieve the email address associated with all users.
+system: true
+scripttarget: 0
+dependson:
+  must:
+  - ad-search
+timeout: 0s
+deprecated: true
+outputs:
+- contextPath: Mailboxes
+  description: List of all users mailbox addresses
