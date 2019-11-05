@@ -174,7 +174,7 @@ def mark_as_malicious(indicator, threshold, context):
 
     if SEVERITY_SCORE[severity] >= SEVERITY_SCORE[threshold]:
         context['Malicious'] = {
-            'Vendor': 'ThreatStream'
+            'Vendor': 'Anomali ThreatStream v2'
         }
 
 
