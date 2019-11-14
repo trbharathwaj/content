@@ -2051,7 +2051,6 @@
 
         "_comment": "~~~ UNSTABLE ~~~",
         "ServiceNow": "Instance goes to hibernate every few hours",
-        "Tanium": "issue 15497",
         "Tenable.sc": "unstable instance",
         "Tenable.io": "Issue 16115",
         "SlackV2": "Issue 19558",
